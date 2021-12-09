@@ -170,7 +170,8 @@ if __name__=='__main__':
                 video_list.append(video)
         if video_list == []:
             print('%s当前程序所在文件夹没有找到影片，请手动选择。'%warning)
-            time.sleep(1)
+            root = tkinter.Tk()
+            root.withdraw()
             while True:
                 video_name = tkinter.filedialog.askopenfilename(title='请选择需要削刮的影片：', filetypes=[('Video','*.mp4 *.ts *.avi *.mkv *.mov'), ('All Files', '*')])
                 if video_name == '':
