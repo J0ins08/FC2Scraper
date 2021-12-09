@@ -39,7 +39,7 @@ move-to=
 #output为Ture时削刮完自动创建文件夹，并将影片移到文件夹中。默认为True。
 output=True
 #output为Ture时，output-format应至少包含{director}、{<year}、{number}标签中的一个或多个。范例：move-to={director}
-output-format={director}/{<year}/{number}
+output-format={director}/{year}/{number}
 ```
 ### F&Q
 
