@@ -47,5 +47,6 @@ output-format={director}/{<year}/{number}
 
 - A： 部分卖家只对特定地区销售，请更换科学上网线路。
 ### 注意事项
+- 分段视频请用FFmpeg等合并后再削刮。
 - Microsoft Defender 可能会报毒，不放心请自行用pyinstaller编译打包。
 - Mac OS可能会报“The system version of Tk is deprecated and may be removed in a future release. Please don't rely on it. Set TK SILENCE DEPRECATION=1 to suppress this warning.”，忽略即可，或者自行搜索解决方法。
