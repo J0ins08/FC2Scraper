@@ -56,3 +56,4 @@ output-format={director}/{year}/{number}
 - 优化代码结构
 - 增加手动选择一次可选多个文件
 - 增加错误日志保存到log.txt
+- 修复已知BUG
