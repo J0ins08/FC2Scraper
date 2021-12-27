@@ -50,3 +50,9 @@ output-format={director}/{year}/{number}
 - 分段视频请用FFmpeg等合并后再削刮。
 - Microsoft Defender 可能会报毒，不放心请自行用pyinstaller编译打包。
 - Mac OS可能会报“The system version of Tk is deprecated and may be removed in a future release. Please don't rely on it. Set TK SILENCE DEPRECATION=1 to suppress this warning.”，忽略即可，或者自行搜索解决方法。
+### ChangeLog
+#### v0.1.1-2021-12-27
+- 代码添加注释，方便阅读
+- 优化代码结构
+- 增加手动选择一次可选多个文件
+- 增加错误日志保存到log.txt
