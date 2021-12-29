@@ -260,8 +260,6 @@ def scrape_video():
             try:
                 nfo_items = askURL(video_num)
             except Exception:
-                print('error')
-                time.sleep(60)
                 continue
             else:
                 if not option_move and not option_output:
